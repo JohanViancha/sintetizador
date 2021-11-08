@@ -1,0 +1,81 @@
+.list-group{
+    display: flex;
+    width: 70%;    
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.tecla{
+    width: 12.5%;
+    height: 30vh;
+    border: 1px solid black;
+    position: relative;
+    cursor: pointer;
+}
+
+.semi-tecla{
+    background-color: black;
+    width: 40px;
+    height: 50%;
+    position: absolute;
+    right: -12%;
+    z-index: 2;
+}
+.tecla:active{
+    background-color: rgb(189, 189, 189);
+}
+
+.piano{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 20px;
+}
+.sonidos{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 0px auto;
+    gap: 5px;
+}
+
+.tambor-circuito{
+    height: 40px;
+    border: 1px solid rgb(31, 32, 32);
+}
+
+i{
+    font-size: 28px;
+}
+
+.tipo-tecla{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    align-self: center;
+    margin-right: 5px;
+
+}
+
+.tipo-tecla div{
+    border: 1px solid black;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.content-sonidos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
